@@ -1,6 +1,7 @@
 :root {
     --header-background-color: #1a7b18;
     --header-nav-button-color: #184b7b;
+    --footer-background-color: #181a7b;
 }
 
 html, body, main {
@@ -42,4 +43,16 @@ header a {
 
 header a:hover{
     color: #ccc;
+}
+
+
+/******************/
+/*  Footer style  */
+/******************/
+
+footer {
+    padding: .1em;
+    background-color: var(--footer-background-color);
+    color: #fff;
+    text-align: center;
 }
