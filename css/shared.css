@@ -1,0 +1,45 @@
+:root {
+    --header-background-color: #1a7b18;
+    --header-nav-button-color: #184b7b;
+}
+
+html, body, main {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+
+/******************/
+/*  Header style  */
+/******************/
+
+header {
+    padding: 1em;
+    background-color: var(--header-background-color);
+    user-select: none;
+}
+
+header h1 {
+    margin: 0;
+    text-decoration: solid 3px underline;
+}
+
+header ul {
+    margin-top: .8em;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header a {
+    padding: .6em .9em;
+    border-radius: .8em;
+    background-color: var(--header-nav-button-color);
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #ccc;
+}
